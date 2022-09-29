@@ -1,5 +1,5 @@
 {
-    "name": "rewardful/rewardful-spark",
+    "name": "sandrocaputo/rewardful-spark",
     "description": "A package to connect your Spark based application to Rewardful.",
     "type": "library",
     "license": "MIT",
@@ -7,6 +7,9 @@
         {
             "name": "Mina Abadir",
             "email": "mina@abadir.email"
+        },
+        {
+            "name": "Sandro Caputo"
         }
     ],
     "require": {},
