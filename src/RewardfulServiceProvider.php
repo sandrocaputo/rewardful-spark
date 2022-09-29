@@ -3,9 +3,9 @@
 namespace Rewardful\RewardfulSpark;
 
 use Illuminate\Support\Facades\Blade;
-use Laravel\Spark\Spark;
+use Spark\Spark;
 use App\Providers\SparkServiceProvider as ServiceProvider;
-use Laravel\Spark\Contracts\Interactions\Settings\PaymentMethod\UpdatePaymentMethod;
+use Spark\Actions\UpdateBillingMethod;
 use Rewardful\RewardfulSpark\UpdateStripePaymentMethod;
 
 class RewardfulServiceProvider extends ServiceProvider

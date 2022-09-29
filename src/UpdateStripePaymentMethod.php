@@ -2,12 +2,12 @@
 
 namespace Rewardful\RewardfulSpark;
 
-use Laravel\Spark\User;
-use Laravel\Spark\Spark;
-use Laravel\Spark\Contracts\Repositories\UserRepository;
-use Laravel\Spark\Contracts\Repositories\TeamRepository;
-use Laravel\Spark\Contracts\Interactions\Settings\PaymentMethod\UpdatePaymentMethod as Contract;
-use Laravel\Spark\Interactions\Settings\PaymentMethod\UpdateStripePaymentMethod as UpdatePaymentMethod;
+use Spark\User;
+use Spark\Spark;
+//use Spark\Contracts\Repositories\UserRepository;
+//use Spark\Contracts\Repositories\TeamRepository;
+use Spark\Contracts\Actions\UpdatesBillingMethod as Contract;
+use Spark\Actions\UpdateBillingMethod as UpdatePaymentMethod;
 
 class UpdateStripePaymentMethod extends UpdatePaymentMethod implements Contract
 {
